@@ -2,7 +2,7 @@
 
 # Base ----------------------------------------
 matplotlib>=3.2.2
-numpy>=1.18.5,<1.24.0
+numpy
 opencv-python>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
@@ -37,3 +37,13 @@ thop  # FLOPs computation
 # albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
+
+######################
+# Bytetrack
+lap
+
+# GPU
+-i https://download.pytorch.org/whl/cu113
+
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
