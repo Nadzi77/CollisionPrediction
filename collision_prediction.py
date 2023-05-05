@@ -347,8 +347,8 @@ if __name__ == '__main__':
     bytetracker = BYTETracker(
         track_thresh=0.6,   # tracking confidence threshold
         match_thresh=0.8,   # matching threshold for tracking
-        track_buffer=30,    # the frames for keep lost tracks
-        frame_rate=30       # FPS
+        track_buffer=25,    # the frames for keep lost tracks
+        frame_rate=25       # FPS
     )
 
     with torch.no_grad():
